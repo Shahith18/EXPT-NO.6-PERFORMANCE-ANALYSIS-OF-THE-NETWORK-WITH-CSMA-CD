@@ -1,14 +1,14 @@
 # PERFORMANCE ANALYSIS OF THE NETWORK WITH CSMA/CD
 
-# AIM
+## AIM
 
 To write an NS2 program to observe the performance of the network with Carrier Sense Multiple Access/Collision Detection.
 .
-# EQUIPMENT REQUIRED
+## EQUIPMENT REQUIRED
 
 PC System with Linux OS, NS2 software.
 
-# ALGORITHM
+## ALGORITHM
 
 * STEP 1: Start the program.
 * STEP 2: Declare the global variables ns for creating a new simulator.
@@ -29,7 +29,7 @@ PC System with Linux OS, NS2 software.
 * STEP 19: At the particular time call the finish procedure.
 * STEP 20: Stop the program.
  
-# PROGRAM
+## PROGRAM
 
 ```#Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
@@ -88,9 +88,9 @@ $ns at 8.0 "finish"
 $ns run
 ```
  
-# OUTPUT
+## OUTPUT
 <img width="735" height="387" alt="image" src="https://github.com/user-attachments/assets/6aec0ad0-90f9-4ea0-a065-74ca56b9e6f3" />
 
-# RESULT
+## RESULT
 
 Thus the performance of the network with Carrier Sense MultipleAccess/Collision Detection is verified using NS2 simulation
